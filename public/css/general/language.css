@@ -2,7 +2,7 @@
 	/*============================ */
 	/* = COLORS */
 	/*============================ */
-		--primary: #151534;
+		--primary: rgba(45, 45, 45, 1);
 		--secondary: #F7F9EF;
 		--tertiary: #FED709;
 
@@ -16,16 +16,22 @@
         --wine-red: #92171C;
         --wine-rose: #E7BBA7;
 
+
+		--box-shadow:  0 0 0 3px rgba(99, 102, 241, 0.5);
+		--box-shadow-hover:  0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
 	/*============================ */
 	/* = SPACING */
 	/*============================ */
 		--spacing-pico:      0.1rem;
 		--spacing-nano:      0.3rem;
 		--spacing-micro:     .5rem;
+
 		/*--- */
 		--spacing-thinnest:  1rem;
 		--spacing-thinner:   1.5rem;
 		--spacing-thin:      2rem;
+		--spacing-thick:     3.75rem;
 		--spacing-broad:     4rem;
 		--spacing-broader:   6rem;
 		--spacing-broadest:  8rem;
@@ -63,7 +69,6 @@
 	/* = FONT-SIZE */
 	/*========================= */
         --base-font-size:  16px;
-        
         --font-miniature:  0.625rem; /* 10px */
         --font-shortest:   0.75rem; /* 12px */
         --font-shorter:    0.875rem; /* 14px */
@@ -192,4 +197,20 @@
 		--ease-in-out-back:  cubic-bezier(0.68, -0.25, 0.265, 1.25);
 		--ease-back-in:      cubic-bezier(0.6, -0.28, 0.735, 0.045);
 		--ease-bounce-light: cubic-bezier(0, 1.1, 1, 1.1);
+
+
+
+		/*======================================== */
+		/* = Section for defining minimum heights */
+		/*======================================== */
+
+		--min-height: 98vh;
+
+		/*======================================== */
+		/* = Font weight */
+		/*======================================== */
+
+		--font-weight-medium: 500;
+
+
 }
