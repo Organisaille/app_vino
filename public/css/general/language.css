@@ -7,7 +7,8 @@
 		--tertiary: #FED709;
 
 		--accent-light: #E3DECB;
-        --accent-medium: #E8A73F;
+		--accent-lignt-medium: rgba(247, 249, 239, 1);
+		--accent-medium: #E8A73F;
         --accent-dark: #723134;
 
 		--error: var(--accent-medium);
@@ -17,13 +18,14 @@
         --wine-rose: #E7BBA7;
 
 
-		--box-shadow:  0 0 0 3px rgba(99, 102, 241, 0.5);
+		--box-shadow:  0 0 0 3px rgba(99, 102, 241, 0.5);  /* J'ai ajouté ça pour donner plus de relief */
 		--box-shadow-hover:  0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
 	/*============================ */
 	/* = SPACING */
 	/*============================ */
 		--spacing-pico:      0.1rem;
+		--spacing-nono:      0.25rem;  /* J'ai ajouté */
 		--spacing-nano:      0.3rem;
 		--spacing-micro:     .5rem;
 
@@ -102,6 +104,7 @@
 		--letter-spacing-narrowest:  -0.14em;
 		--letter-spacing-narrower:   -0.041275em;
 		--letter-spacing-narrow:     -0.01275em;
+		--letter-spacing-normal:      -3.75rem;
 		--letter-spacing-wide:        0.02em;
 		--letter-spacing-wider:       0.04125em;
 		--letter-spacing-widest:      0.0675em;
@@ -205,12 +208,14 @@
 		/*======================================== */
 
 		--min-height: 98vh;
+		--min-height-2: 100vh;
 
 		/*======================================== */
 		/* = Font weight */
 		/*======================================== */
 
 		--font-weight-medium: 500;
+		--font-weight-bold: 600;
 
 
 }

@@ -1,5 +1,3 @@
-/* J'ai mis le css ici en attendant, d'avoir les variables globale avec importation */
-
 /* GuestLayout.vue */
 
 .application-logo {
@@ -118,7 +116,7 @@
 
 .input-label2{
     display: block;
-    font-size: 1rem;
+    font-size: var(--font-current);
     line-height: var(--spacing-thin);
     border-radius: var(--spacing-nano);
     width: 105%;
