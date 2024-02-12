@@ -16,5 +16,4 @@ return [
     'failed' => 'Ce compte n’existe pas.',
     'password' => 'The provided password is incorrect.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-
 ];

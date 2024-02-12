@@ -3,7 +3,6 @@
         <div class="logo-container">
             <Link href="/">
                 <ApplicationLogoReg/>
-   
             </Link>
     
         </div>
